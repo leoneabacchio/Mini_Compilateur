@@ -1,0 +1,26 @@
+#CALCUL
+#TAB
+#BOUCLE
+
+Program MonProgramme
+{
+INT I,N,B,A1; INT TAB[10];
+CHAR TAB2[5];
+CHAR C;
+STRING S;
+S="chaine de caracteres"; //initialisation d'une chaine de caracteres//
+N = 10;
+B=4;
+A1=7;
+B=B*2+A1/3;
+//cette boucle permet de remplir le tableau TAB//
+FOR (I=0:N-1)
+{
+READ(TAB[I]);
+}
+I=0;
+WHILE (I<N)
+{
+PRINT(TAB[I]);
+} 
+}
